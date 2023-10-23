@@ -54,7 +54,7 @@ requirements = {
     "train": [
         "matplotlib",
         "pillow==9.5.0",
-        "editdistance==0.5.2",
+        "editdistance",
         "wandb",
         "tensorboard>=1.14",
     ],
@@ -86,7 +86,7 @@ requirements = {
         "torch_optimizer",
         "fairscale",
         "transformers",
-        "gtn==0.0.0",
+        # "gtn==0.0.0",
         "evaluate",
     ],
     "setup": [
